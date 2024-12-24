@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_131F0E2C-7354-4D45-A25A-BFC6001DFFA0" id="_4B9EA64C-F712-4236-91D5-3FE41CAE5D0C" name="DMN_6EA33952-353E-47E1-B8D1-4BF38DD07357" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_131F0E2C-7354-4D45-A25A-BFC6001DFFA0" id="_4B9EA64C-F712-4236-91D5-3FE41CAE5D0C" name="WeatherAdvice">
   <itemDefinition id="_E0C0D9F7-4CD4-48E8-B2B7-1EB4C427F881" name="weather" isCollection="false" typeLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/">
+    <itemComponent id="_5888F367-3D8B-499C-9935-843A82887E4F" name="location" isCollection="false" typeLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/">
+      <typeRef>string</typeRef>
+    </itemComponent>
     <itemComponent id="_BBA906B3-2E66-409B-8D2D-AC735EABF0E6" name="rainForecast" isCollection="false" typeLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/">
       <typeRef>number</typeRef>
     </itemComponent>
